@@ -1,0 +1,62 @@
+Assignment (02/03/2026)
+Assignment Name: ML Idea Generator
+
+1. College – Student Performance Prediction
+
+Machine learning can analyze student study patterns and past academic records to predict exam performance.
+Input → Output
+Attendance, study hours, previous marks → Predicted exam score or grade.
+
+2. College – Student Dropout Prediction
+
+ML models can identify students who may drop out based on academic and behavioral data.
+Input → Output
+Attendance, grades, participation → Dropout risk prediction.
+
+3. College – Course Recommendation System
+
+ML can suggest suitable courses for students based on their interests and previous subjects.
+Input → Output
+Student interests, past course grades → Recommended courses.
+
+4. Healthcare – Disease Prediction System
+
+Machine learning can analyze patient data to predict possible diseases at an early stage.
+Input → Output
+Symptoms, age, medical history → Predicted disease.
+
+5. Healthcare – Heart Disease Risk Prediction
+
+ML models can estimate the risk of heart disease using patient health indicators.
+Input → Output
+Blood pressure, cholesterol, age → Heart disease risk level.
+
+6. Healthcare – Medical Image Detection
+
+ML can analyze medical images such as X-rays or scans to detect abnormalities.
+Input → Output
+Medical images (X-ray, MRI) → Detected disease or abnormality.
+
+7. Shopping – Product Recommendation System
+
+ML can recommend products to customers based on their browsing and purchase history.
+Input → Output
+Search history, previous purchases → Recommended products.
+
+8. Shopping – Customer Purchase Prediction
+
+ML models can predict whether a customer will buy a product based on browsing behavior.
+Input → Output
+Browsing time, product views → Purchase prediction.
+
+9. Shopping – Price Prediction System
+
+ML can predict the best price for a product based on demand and market trends.
+Input → Output
+Demand data, previous prices → Predicted product price.
+
+10. Shopping – Customer Review Sentiment Analysis
+
+ML can analyze customer reviews to understand whether feedback is positive or negative.
+Input → Output
+Customer reviews or comments → Sentiment (Positive/Negative).

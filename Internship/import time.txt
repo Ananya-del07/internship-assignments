@@ -1,0 +1,24 @@
+import time
+import numpy as np
+
+# Create 1 million numbers using Python list
+python_list = list(range(1000000))
+
+# Create 1 million numbers using NumPy array
+numpy_array = np.arange(1000000)
+
+# Measure execution time for Python list
+start_time = time.time()
+list_result = [x * x for x in python_list]
+end_time = time.time()
+list_time = end_time - start_time
+
+# Measure execution time for NumPy array
+start_time = time.time()
+array_result = numpy_array * numpy_array
+end_time = time.time()
+array_time = end_time - start_time
+
+# Display results
+print("Execution Time for Python List:", list_time)
+print("Execution Time for NumPy Array:", array_time)

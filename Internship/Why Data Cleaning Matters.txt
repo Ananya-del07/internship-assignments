@@ -1,0 +1,6 @@
+Why Data Cleaning Matters
+It removes incorrect and incomplete data.
+It improves the reliability of analysis.
+It ensures consistent formatting across the dataset.
+It prevents duplicate data from affecting results.
+It helps machine learning models perform better.

@@ -1,0 +1,33 @@
+# Import library
+import pandas as pd
+
+# Create a sample dataset
+data = {
+    "Student": ["Rahul", "Anita", "Rahul", "Vikram", "Anita", None],
+    "Marks": [85, 90, 85, None, 90, 75],
+    "Department": ["cs", "IT", "cs", "Mechanical", "IT", "cs"]
+}
+
+df = pd.DataFrame(data)
+
+# Display original data
+print("Original Dataset")
+print(df)
+
+# 1. Handle missing values
+df["Marks"] = df["Marks"].fillna(df["Marks"].median())
+df["Student"] = df["Student"].fillna("Unknown")
+
+# 2. Remove duplicate rows
+df = df.drop_duplicates()
+
+# 3. Standardize text (Department names)
+df["Department"] = df["Department"].str.upper()
+
+# Show cleaned dataset
+print("\nCleaned Dataset")
+print(df)
+
+# Check remaining missing values
+print("\nMissing Values Count")
+print(df.isnull().sum())

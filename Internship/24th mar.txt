@@ -1,0 +1,34 @@
+Documents
+
+Document 1:
+Machine learning improves technology and automation systems.
+
+Document 2:
+Students use technology for online learning and education.
+
+Document 3:
+Healthcare systems use machine learning for disease prediction.
+
+Document 4:
+Online shopping websites recommend products using data analysis.
+
+Document 5:
+Sports analytics uses data to improve team performance.
+
+Top Keywords using TF-IDF
+
+Document 1: machine, learning, technology, automation
+
+Document 2: students, online, learning, education
+
+Document 3: healthcare, disease, prediction, machine
+
+Document 4: shopping, products, recommend, analysis
+
+Document 5: sports, analytics, performance, team
+
+Explanation
+
+TF-IDF (Term Frequency – Inverse Document Frequency) is used to find important words in documents. It gives higher importance to words that appear frequently in one document but not in many other documents.
+In the given documents, words like machine learning, education, healthcare, shopping, and sports have higher importance because they describe the main topic of each document.
+TF-IDF helps in identifying keywords, understanding document meaning, and improving text analysis in Natural Language Processing (NLP).

@@ -1,0 +1,13 @@
+Customer Group Description
+The customer groups obtained from K-Means clustering are described based on their Annual Income and Spending Score. Each cluster represents customers with similar behavior.
+To describe the clusters, the following approach is used:
+The data points in each cluster are analyzed
+The centroid of each cluster is observed to understand average values
+Customers are categorized as high, medium, or low based on income and spending
+Meaningful labels are assigned to each group
+Based on this analysis, the customer groups are described as:
+High Income – High Spending: Premium customers who contribute maximum profit
+High Income – Low Spending: Customers with potential to increase spending
+Low Income – High Spending: Customers who spend more despite low income
+Low Income – Low Spending: Customers with minimal contribution
+Average Income – Average Spending: Regular customers with moderate behavior

@@ -1,0 +1,20 @@
+Car – Automobile
+Both words have the same meaning and refer to a vehicle used for transportation.
+
+Happy – Joyful
+These words express similar emotions related to feeling pleased or satisfied.
+
+Teacher – Educator
+Both words describe a person who provides knowledge or teaches students.
+
+Big – Large
+These words indicate similar meaning related to size.
+
+Fast – Quick
+Both words describe something happening in a short amount of time or at high speed.
+
+Explanation
+
+Semantic similarity means how closely related the meanings of two words are. Words with similar meanings are considered semantically similar.
+Understanding semantic similarity is important in Natural Language Processing (NLP) because it helps computers understand the meaning of words and sentences. It is used in applications such as search engines, chatbots, text analysis, and recommendation systems.
+Semantic similarity helps machines recognize that different words can express the same idea.

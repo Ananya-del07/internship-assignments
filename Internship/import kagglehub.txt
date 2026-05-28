@@ -1,0 +1,23 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("yasserh/student-marks-dataset")
+
+print("Path to dataset files:", path)
+import pandas as pd
+
+
+# Load the dataset
+data = pd.read_csv("/kaggle/input/student-marks-dataset/Student_Marks.csv")
+
+# Display top 5 rows
+print("Top 5 rows of the dataset:")
+print(data.head())
+
+# Find highest value in each numeric column
+print("\nHighest value in each numeric column:")
+print(data.max(numeric_only=True))
+
+# Count missing values
+print("\nMissing values in each column:")
+print(data.isnull().sum())

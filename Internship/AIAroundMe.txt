@@ -1,0 +1,27 @@
+AI Around Me
+Google Search
+
+Google uses machine learning to understand what people usually want when they search something. It learns from clicks and searches done earlier and improves the results slowly.
+YouTube Recommendations
+YouTube checks which videos are watched more and which are skipped. From this, machine learning suggests similar videos again.
+Instagram / Facebook Feed
+These apps notice what kind of posts we like or watch longer. Machine learning then shows more posts like that on the feed.
+
+ChatGPT
+ChatGPT uses machine learning to learn how answers are normally written. It predicts replies based on the question given by the user.
+
+Voice Assistants (Google Assistant / Siri)
+Machine learning helps voice assistants understand different voices and words. They learn more when people use them again and again.
+Email Spam Filter (Gmail)
+Gmail learns which emails look like spam by checking words and links. Machine learning helps move such emails to the spam folder.
+Google Maps Navigation
+Google Maps learns traffic conditions from many users. Machine learning predicts which road will be faster at that time.
+
+Online Shopping Recommendations (Amazon / Flipkart)
+Shopping apps learn what users search or buy often. Machine learning then suggests similar products.
+
+Face Unlock on Smartphones
+The phone learns facial features using machine learning. It checks these features every time we try to unlock.
+
+Autocorrect and Predictive Text
+Machine learning learns common typing mistakes and word usage. It helps by correcting words and suggesting the next one.

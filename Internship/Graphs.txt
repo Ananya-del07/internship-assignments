@@ -1,0 +1,5 @@
+The graphs provide a clear understanding of student performance and study habits.
+The bar chart shows the marks obtained by each student. From the graph, we can observe that student F scored the highest marks, while student A scored the lowest. This indicates variation in student performance.
+The pie chart represents how the total marks are distributed among students. Each slice shows the contribution of each student’s marks to the total. Students with higher marks occupy larger portions of the pie.
+The histogram displays the frequency distribution of marks. Most students scored between 60 and 80 marks, which suggests that the majority of students performed in the average to good range.
+Overall, the graphs reveal that students who studied more hours tend to score higher marks, indicating a positive relationship between study time and academic performance.

@@ -1,0 +1,31 @@
+Prompts Used and Results
+
+Prompt 1:
+Can a person be in two places at the same time?
+Result:
+The AI explained that normally a person cannot be in two places at once, but in physics or fiction, concepts like quantum theory or teleportation are discussed.
+
+Prompt 2:
+If yesterday was tomorrow, what day is today?
+Result:
+The AI analyzed the logical confusion and provided an explanation showing that the statement is contradictory and cannot represent a real scenario.
+
+Prompt 3:
+Write a sentence that means the opposite of itself.
+Result:
+The AI generated examples of paradoxical sentences and explained that such statements create logical contradictions.
+
+Prompt 4:
+Can you create a square circle?
+Result:
+The AI clarified that a square circle is not possible because both shapes have different properties.
+
+Prompt 5:
+If everything I say is false, is this statement true?
+Result:
+The AI identified this as a logical paradox and explained why the statement cannot be consistently true or false.
+
+Explanation
+
+Large Language Models (LLMs) sometimes face difficulty when given confusing, contradictory, or logically impossible prompts. These prompts are designed to test how well the AI understands context, logic, and meaning.
+This activity helped in understanding the limitations of AI systems and how tricky or ambiguous prompts can affect responses.

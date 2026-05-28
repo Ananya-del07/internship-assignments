@@ -1,0 +1,37 @@
+How KNN Works in Netflix-like Recommendations
+When a user watches or rates movies, the system stores their preferences. The KNN algorithm compares this user with other users who have similar viewing habits.
+Steps:
+Collect data of users and the movies they watched or rated.
+Calculate the similarity or distance between users.
+Find the K nearest users (users with most similar taste).
+Recommend movies that those similar users liked but the current user has not watched.
+This way, the system predicts what the user might enjoy watching next.
+
+Small Similarity Example
+User
+Action
+Comedy
+Drama
+User A
+5
+3
+1
+User B
+4
+3
+1
+User C
+1
+5
+4
+User D
+5
+2
+1
+Suppose a new user likes Action movies (5) and Comedy movies (3).
+The algorithm calculates similarity with other users.
+User A → Very similar
+User B → Similar
+User D → Also similar
+User C → Not similar
+If User A and User B watched a movie called “Movie X” and rated it highly, the system recommends Movie X to the new user.

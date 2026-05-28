@@ -1,0 +1,31 @@
+import string
+
+# Simple stopwords list
+stop_words = [
+    "is", "am", "are", "the", "a", "an", "and", "or", "in", "on", "at",
+    "to", "for", "of", "with", "this", "that", "it"
+]
+
+def clean_text(text):
+    # Step 1: Convert to lowercase
+    text = text.lower()
+    
+    # Step 2: Remove punctuation
+    text = text.translate(str.maketrans('', '', string.punctuation))
+    
+    # Step 3: Split into words
+    words = text.split()
+    
+    # Step 4: Remove stopwords
+    filtered_words = [word for word in words if word not in stop_words]
+    
+    # Step 5: Join words
+    cleaned_text = " ".join(filtered_words)
+    
+    return cleaned_text
+
+# Example
+sample_text = "Hello!!! This is a simple example, with punctuation."
+
+print("Original Text:", sample_text)
+print("Cleaned Text:", clean_text(sample_text))

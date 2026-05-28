@@ -1,0 +1,10 @@
+correct_password = "python123"
+
+password = input("Enter password: ")
+
+if len(password) < 8:
+    print("Password too short")
+elif password == correct_password:
+    print("Access Granted")
+else:
+    print("Access Denied")

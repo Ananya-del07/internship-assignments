@@ -1,0 +1,5 @@
+Assignment Name: House Price Predictor
+Explanation
+A House Price Predictor uses Linear Regression, a Machine Learning algorithm used to predict continuous values. In this assignment, a simple dataset containing house sizes and their corresponding prices is used to train the model.
+The model learns the relationship between house size (input feature) and house price (output label). After training, the model can predict the price of a house when a new house size is given as input.
+For example, if the model is trained with data showing that larger houses usually cost more, it can estimate the price of a house of a given size.

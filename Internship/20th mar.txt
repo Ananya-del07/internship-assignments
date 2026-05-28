@@ -1,0 +1,145 @@
+Examples of Messy Sentences and Analysis
+
+1.Sentence: Hiiiii 😍 how r uuu???
+
+Slang: r → are
+
+Emoji: 😍
+
+Typo: Hiiiii, uuu
+
+Preprocessing: Lowercase, remove emoji, correct spelling
+
+2.Sentence: OMG!!! this is sooo coool 😂
+
+Slang: OMG → Oh My God
+
+Emoji: 😂
+
+Typo: sooo, coool
+
+Preprocessing: Normalize words, remove emoji
+
+3.Sentence: Gud mrng frnd 😊
+
+Slang: Gud → Good, frnd → friend
+
+Emoji: 😊
+
+Preprocessing: Expand slang, remove emoji
+
+4.Sentence: Plz send d notes ASAP!!
+
+Slang: Plz → Please, d → the, ASAP → as soon as possible
+
+Preprocessing: Expand abbreviations
+
+5.Sentence: I can'tttt believe this!!!
+
+Typo: can'tttt
+
+Preprocessing: Remove repeated characters
+
+6.Sentence: LOL 😂 that was funnyyyy
+
+Slang: LOL → Laugh out loud
+
+Typo: funnyyyy
+
+Preprocessing: Normalize text
+
+7.Sentence: Wat r u doing???
+
+Slang: Wat → What, r → are
+
+Preprocessing: Correct words
+
+8.Sentence: Thnx for ur help 🙏
+
+Slang: Thnx → Thanks, ur → your
+
+Emoji: 🙏
+
+Preprocessing: Replace slang, remove emoji
+
+9.Sentence: This movie is lit 🔥
+
+Slang: lit → amazing
+
+Emoji: 🔥
+
+Preprocessing: Replace slang
+
+10.Sentence: I'll b there in 5 mins
+
+Slang: b → be, mins → minutes
+
+Preprocessing: Expand words
+
+11.Sentence: Nooooo wayyyy!!!
+
+Typo: Nooooo, wayyyy
+
+Preprocessing: Reduce repeated letters
+
+12.Sentence: Msg me asap plzz
+
+Slang: Msg → message, asap → as soon as possible, plzz → please
+
+Preprocessing: Expand slang
+
+13.Sentence: U r amazing 😍
+
+Slang: U → you, r → are
+
+Emoji: 😍
+
+Preprocessing: Replace slang, remove emoji
+
+14.Sentence: Yessss I got it!!!
+
+Typo: Yessss
+
+Preprocessing: Normalize
+
+15.Sentence: C u soon 👍
+
+Slang: C → see, u → you
+
+Emoji: 👍
+
+Preprocessing: Replace slang
+
+16.Sentence: Dis is not gud
+
+Slang: Dis → this, gud → good
+
+Preprocessing: Correct spelling
+
+17.Sentence: Hehehe that's funny 😂
+
+Typo: Hehehe
+
+Emoji: 😂
+
+Preprocessing: Remove noise
+
+18.Sentence: Where r u now??
+
+Slang: r → are, u → you
+
+Preprocessing: Replace slang
+
+19.Sentence: OMG I luv this song ❤️
+
+Slang: luv → love
+
+Emoji: ❤️
+
+Preprocessing: Expand slang, remove emoji
+
+20.Sentence: Plzzz reply fasttt
+
+Typo: Plzzz, fasttt
+
+Preprocessing: Normalize text

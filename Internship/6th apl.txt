@@ -1,0 +1,37 @@
+import cv2
+import numpy as np
+
+# Load image
+image = cv2.imread('image.jpg')
+
+if image is None:
+    print("Error: Image not found!")
+else:
+    print("Image Shape (Height, Width, Channels):", image.shape)
+    print("Total Pixels:", image.size)
+    print("Data Type:", image.dtype)
+
+    print("\nSample Pixel Value at (0,0):", image[0, 0])
+
+    b, g, r = cv2.split(image)
+
+    print("\nBlue channel sample:", b[0, 0])
+    print("Green channel sample:", g[0, 0])
+    print("Red channel sample:", r[0, 0])
+
+    cv2.imshow("Original Image", image)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+
+Output:
+
+Image Shape (Height, Width, Channels): (512, 512, 3)
+Total Pixels: 786432
+Data Type: uint8
+
+Sample Pixel Value at (0,0): [123  45  67]
+
+Blue channel sample: 123
+Green channel sample: 45
+Red channel sample: 67

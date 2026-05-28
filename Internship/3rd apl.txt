@@ -1,0 +1,42 @@
+Assignment Name: NLP Mini App
+Selected Task: Keyword Extractor
+
+Explanation
+In this assignment, a simple NLP mini application called Keyword Extractor is created. The program takes text as input, removes common words, and identifies the most important words based on frequency. These words are considered keywords. This shows how Natural Language Processing (NLP) helps computers understand text and extract useful information.
+
+Python Code
+
+# NLP Mini App - Keyword Extractor
+
+import re
+from collections import Counter
+
+# sample text
+text = """
+Machine learning is a powerful technology that allows computers to learn from data.
+Natural language processing helps computers understand human language.
+Machine learning and NLP are widely used in chatbots, search engines, and recommendation systems.
+"""
+
+# convert text to lowercase
+text = text.lower()
+
+# remove punctuation
+text = re.sub(r'[^\w\s]', '', text)
+
+# remove common stopwords
+stopwords = ["is","a","the","and","in","to","from","that","are","of"]
+
+words = text.split()
+
+filtered_words = [word for word in words if word not in stopwords]
+
+# count word frequency
+word_count = Counter(filtered_words)
+
+# get top 5 keywords
+keywords = word_count.most_common(5)
+
+print("Top Keywords:")
+for word, count in keywords:
+    print(word, ":", count)

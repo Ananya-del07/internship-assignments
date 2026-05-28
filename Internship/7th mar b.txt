@@ -1,0 +1,20 @@
+from sklearn.neighbors import NearestNeighbors
+import numpy as np
+
+# Movie preference data
+data = np.array([
+    [5,3,1],  # User A
+    [4,3,1],  # User B
+    [1,5,4],  # User C
+    [5,2,1]   # User D
+])
+
+# New user preferences
+new_user = np.array([[5,3,1]])
+
+model = NearestNeighbors(n_neighbors=2)
+model.fit(data)
+
+distance, index = model.kneighbors(new_user)
+
+print("Nearest users:", index)

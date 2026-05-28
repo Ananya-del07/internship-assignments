@@ -1,0 +1,22 @@
+Prompts and Comparison:
+1. Resume Writing
+Weak Prompt:
+Write a resume.
+Strong Prompt:
+Create a professional one-page resume for a final-year Computer Science student with skills in Python, Machine Learning, and NLP. Include education, projects, skills, and internships.
+Comparison:
+The weak prompt generated a very general resume without specific details or structure. The strong prompt produced a well-organized resume with relevant sections, proper formatting, and detailed content based on the given skills.
+2. Business Idea Generation
+Weak Prompt:
+Give me a business idea.
+Strong Prompt:
+Suggest 2 low-investment business ideas for college students in India. Include target audience, required resources, and estimated cost.
+Comparison:
+The weak prompt resulted in broad and generic ideas. The strong prompt provided practical and detailed ideas with clear explanations, making them more useful and realistic.
+3. Study Plan
+Weak Prompt:
+Make a study plan.
+Strong Prompt:
+Create a 7-day study plan for Data Structures covering topics like arrays, stacks, queues, and trees. Include daily schedule and revision.
+Comparison:
+The weak prompt produced a basic and unclear plan. The strong prompt generated a structured and detailed schedule with proper topic distribution and time management.
